@@ -12,24 +12,39 @@ const Mycard = () => {
           <br></br>
           </div>
           <div >
-          <span >
-          <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" class="card-img-top" alt="..."/>
           
+          
+          
+
+   <div className="propic">
+   <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" class="card-img-top" alt="..."/>
+   <h1 style={{position:"relative",top:"10px",color:"black",marginTop:"-4rem"}}>
+   <span style={{width:"50px",position:"absolute",marginLeft:"-3rem"}}>
+          <span className="card-text" style={{color:"GrayText"}}>
+            Name
           </span>
-          <span style={{width:"50px"}}>
+          <b><span style={{backgroundColor:"blue", marginLeft:"1rem",borderRadius:"3px",color:"whitesmoke"}}>Creator</span>
+          </b>
+          </span>
+          <br/>
+          <h4 style={{color:"black",paddingTop:"0.1rem",marginLeft:"1.5rem",paddingBottom:"1rem"}}>xyz@gmail.com</h4>
+          </h1>
+   </div>
+          
+          {/* <span style={{width:"50px",position:"absolute"}}>
           <span className="card-text" style={{color:"GrayText"}}>
             Name
           </span>
           <b><span style={{backgroundColor:"blue", marginLeft:"1rem",borderRadius:"3px",}}>Creator</span>
           </b>
-          </span>
+          </span> */}
           
-          <br></br>
-          <h4 style={{color:"black"}}>xyz@gmail.com</h4>
-          <br></br>
-          <p style={{color:"black",fontFamily:"cursive"}}>Total number of Registration : 50 </p>
-          <br></br>
-          <a href="#" className="btn btn-primary" style={{color:"ActiveBorder",backgroundColor:"ButtonHighlight"}}>
+          
+          
+         
+          <p style={{color:"black",fontFamily:"cursive",paddingTop:"1rem"}}>Total number of Registration : 50 </p>
+          
+          <a href="#" className="btn btn-primary" style={{color:"ActiveBorder",backgroundColor:"ButtonHighlight",marginLeft:"-8rem"}}>
             View Details
           </a>
         </div>

@@ -13,7 +13,7 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
   min-height: 100vh;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: #262626;
   padding-bottom: 3rem;
 }
@@ -149,8 +149,11 @@ img {
   position: relative;
   flex: 1 0 22rem;
   margin: 1rem;
+  margin-left: 2rem;
   color: #fff;
   cursor: pointer;
+  background-color: #fff!important;
+  box-shadow: 0 5px 10px rgba(46, 36, 36, 0.2);
 }
 
 .gallery-item:hover .gallery-item-info,
@@ -368,3 +371,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
       }
   }
 }
+
+
+
+
